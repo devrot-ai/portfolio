@@ -1,0 +1,172 @@
+.achievements-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: auto;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 80px 0px;
+}
+
+.achievements-section h2 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(0deg, #0d9488, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.achievements-section h2 > span {
+  font-family: "Geist", sans-serif;
+  font-weight: 300;
+}
+
+.achievements-container {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.achievements-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.achievements-column h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 0 30px 0;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.achievements-column h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(90deg, #14b8a6, #67e8f9);
+  border-radius: 2px;
+}
+
+.achievement-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.achievement-item:last-child {
+  border-bottom: none;
+}
+
+.achievement-item:hover {
+  transform: translateX(6px);
+}
+
+.achievement-icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.achievement-icon.hackathon {
+  background: rgba(20, 184, 166, 0.15);
+  color: #14b8a6;
+  box-shadow: 0 0 12px rgba(20, 184, 166, 0.1);
+}
+
+.achievement-icon.leadership {
+  background: rgba(99, 102, 241, 0.15);
+  color: #818cf8;
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.1);
+}
+
+.achievement-text h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  color: #e2e8f0;
+  line-height: 1.3;
+}
+
+.achievement-text h5 {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 4px 0 0 0;
+  color: var(--accentColor);
+  letter-spacing: 0.3px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .achievements-section h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .achievements-container {
+    gap: 40px;
+    padding: 0 20px;
+  }
+
+  .achievement-text h4 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .achievements-container {
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .achievements-section {
+    padding: 40px 0;
+    margin-bottom: 50px;
+  }
+
+  .achievements-section h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .achievements-column h3 {
+    font-size: 22px;
+  }
+
+  .achievement-text h4 {
+    font-size: 15px;
+  }
+
+  .achievement-text h5 {
+    font-size: 13px;
+  }
+}
