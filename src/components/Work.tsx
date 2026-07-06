@@ -12,8 +12,8 @@ const projects = [
   },
   {
     title: "Amigo",
-    category: "AI Mental Health Platform",
-    tools: "React, Django, FastAPI, AI Agents",
+    category: "AI Conversational System",
+    tools: "React, Django/FastAPI, AI Agents",
     image: "/images/radix.png",
   },
   {

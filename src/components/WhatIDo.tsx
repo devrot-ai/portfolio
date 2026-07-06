@@ -103,6 +103,7 @@ const WhatIDo = () => {
                 <div className="what-tags">Pandas</div>
                 <div className="what-tags">NumPy</div>
                 <div className="what-tags">FastAPI</div>
+                <div className="what-tags">Java</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -143,6 +144,9 @@ const WhatIDo = () => {
                 <div className="what-tags">AWS</div>
                 <div className="what-tags">REST APIs</div>
                 <div className="what-tags">JavaScript</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">HTML/CSS</div>
+                <div className="what-tags">Git</div>
               </div>
               <div className="what-arrow"></div>
             </div>
