@@ -90,9 +90,9 @@ const WhatIDo = () => {
               <h3>AI / ML</h3>
               <h4>Intelligent Systems & Models</h4>
               <p>
-                Building and training machine learning and deep learning models.
-                From multi-agent AI systems to computer vision pipelines, I
-                create intelligent, production-ready solutions.
+                Building and training machine learning and deep learning models
+                — from GPT implementations and multi-agent orchestrators to
+                real-time computer vision pipelines with YOLOv8 and OpenCV.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -100,10 +100,10 @@ const WhatIDo = () => {
                 <div className="what-tags">PyTorch</div>
                 <div className="what-tags">TensorFlow</div>
                 <div className="what-tags">Scikit-learn</div>
+                <div className="what-tags">OpenCV</div>
+                <div className="what-tags">YOLOv8</div>
                 <div className="what-tags">Pandas</div>
                 <div className="what-tags">NumPy</div>
-                <div className="what-tags">FastAPI</div>
-                <div className="what-tags">Java</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -130,19 +130,19 @@ const WhatIDo = () => {
               <h3>BACKEND & FULL STACK</h3>
               <h4>Scalable Applications</h4>
               <p>
-                Designing robust APIs and full-stack platforms. From REST APIs
-                with Django to real-time dashboards with React, I build systems
-                that scale and perform.
+                Designing robust APIs and full-stack platforms. From FastAPI
+                backends load-tested at ~193 req/sec to real-time React
+                dashboards, I build systems that scale and perform.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Django</div>
                 <div className="what-tags">FastAPI</div>
                 <div className="what-tags">React</div>
+                <div className="what-tags">SQLAlchemy</div>
                 <div className="what-tags">PostgreSQL</div>
                 <div className="what-tags">MySQL</div>
                 <div className="what-tags">AWS</div>
-                <div className="what-tags">REST APIs</div>
                 <div className="what-tags">JavaScript</div>
                 <div className="what-tags">SQL</div>
                 <div className="what-tags">HTML/CSS</div>

@@ -5,28 +5,34 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "SynapseAI",
-    category: "Multi-Agent AI System",
-    tools: "Python, PyTorch, FastAPI",
-    image: "/images/Solidx.png",
+    title: "GPT From Scratch",
+    category: "Deep Learning / NLP",
+    tools: "Python, PyTorch",
+    image: "/images/Solidx.webp",
+  },
+  {
+    title: "Aegis AI Agent Orchestrator",
+    category: "Distributed Multi-Agent System",
+    tools: "Python, FastAPI, React, Vis.js",
+    image: "/images/radix.webp",
+  },
+  {
+    title: "LitterCam",
+    category: "Computer Vision / Traffic Intelligence",
+    tools: "Python, FastAPI, YOLOv8, OpenCV",
+    image: "/images/bond.webp",
   },
   {
     title: "Amigo",
     category: "AI Conversational System",
     tools: "React, Django/FastAPI, AI Agents",
-    image: "/images/radix.png",
+    image: "/images/sapphire.webp",
   },
   {
-    title: "BreatheEasy",
-    category: "Real-Time Data Intelligence",
-    tools: "React, Python, APIs",
-    image: "/images/bond.png",
-  },
-  {
-    title: "Collegesiksha",
-    category: "Campus Resource Management",
-    tools: "React, Django, PostgreSQL",
-    image: "/images/sapphire.png",
+    title: "Remembrain",
+    category: "Face Recognition / Accessibility",
+    tools: "Python, OpenCV",
+    image: "/images/Maxlife.webp",
   },
 ];
 

@@ -21,11 +21,10 @@ const Career = () => {
               <h3>Jan – Feb 2026</h3>
             </div>
             <p>
-              Worked on core AI development using Python, PyTorch, and
-              TensorFlow. Built and trained ML/DL models, performed data
-              preprocessing and feature engineering. Improved model performance
-              through hyperparameter tuning and integrated models into backend
-              deployment workflows.
+              Built and trained ML/DL models on structured datasets using Python,
+              PyTorch, and TensorFlow. Tuned hyperparameters and refined model
+              architecture to improve performance. Integrated trained models into
+              backend systems, enabling deployment workflows.
             </p>
           </div>
           <div className="career-info-box">
@@ -37,11 +36,11 @@ const Career = () => {
               <h3>Jan – Jun 2026</h3>
             </div>
             <p>
-              Architected database schemas, indexing strategies, and query
-              optimizations improving system performance by 35%. Led triage and
-              resolution of critical open source issues, reviewing PRs and
-              ensuring code quality. Established data backup, migration, and
-              sync pipelines ensuring zero data loss across deployments.
+              Owned database infrastructure design and optimization. Architected
+              schemas, indexing strategies, and query optimizations, improving
+              system performance by 35%. Triaged critical open source issues and
+              reviewed community PRs. Built backup, migration, and sync pipelines
+              ensuring zero data loss across deployment cycles.
             </p>
           </div>
         </div>
